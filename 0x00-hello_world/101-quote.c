@@ -1,6 +1,7 @@
 #include <unistd.h>
 /**
- * main -Prints "and that pieced of art is useful" - Dora Korpar, 2015-10-19", followed by a new line.
+ * main -Prints "and that pieced of art is useful" - Dora Korpar, 2015-10-19"
+* return -returns 1
  */
 int main(void)
 {
