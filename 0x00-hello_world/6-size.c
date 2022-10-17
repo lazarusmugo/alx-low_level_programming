@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints the size of various types
- * Description: prints the size of variou data type 
- * Return: Always 0 (Success)
-* Description: Program return  0
+ * Description: prints the size of variou data type
+ *  Return: Always 0 (Success)
 */
 int main(void)
 {

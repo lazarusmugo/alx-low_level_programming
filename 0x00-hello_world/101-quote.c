@@ -1,7 +1,7 @@
 #include <unistd.h>
 /**
- * main -Prints "and that pieced of art is useful" - Dora Korpar, 2015-10-19"
-* return -returns 1
+ * main -Prints "and that pieced of art is useful" - Dora Korpar,
+ * Return: Returns 1
  */
 int main(void)
 {
