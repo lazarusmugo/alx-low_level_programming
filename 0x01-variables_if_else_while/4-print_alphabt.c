@@ -6,10 +6,10 @@
 int main(void)
 {
 char letter;
-for (etter = 'a'; letter <='z; letter++)
+for (letter = 'a'; letter <='z; letter++)
 {
 if (letter != 'e' && letter != 'q')
-	puthar(letter);
+	putchar(letter);
 }
 putchar('\n');
 return (0);
