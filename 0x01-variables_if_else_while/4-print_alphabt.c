@@ -7,7 +7,7 @@ int main(void)
 {
 char letter;
 for (letter = 'a'; letter <= 'z'; letter++)
-{i
+{
 if (letter != 'e' && letter != 'q')
 	putchar(letter);
 }
