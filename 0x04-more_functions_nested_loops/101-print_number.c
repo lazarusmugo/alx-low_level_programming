@@ -8,7 +8,7 @@ void print_number(int n)
 {
 long m;
 int c;
-long num
+long num;
 num = n;
 
 if (num < 0)
@@ -39,4 +39,4 @@ else
 m /= 10;
 	}
 }
-												}
+}
