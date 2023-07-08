@@ -2,7 +2,7 @@
 
 
 /**
- * _strcat - Cancatenates strings
+ * _strncat - Cancatenates strings
  * @dest: destination string
  * @src: source string
  * @n: limit of concatnation
