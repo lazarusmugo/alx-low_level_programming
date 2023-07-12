@@ -7,12 +7,12 @@
  * @argc: args count
  * @argv: args array
  *
- * Return: varies
+ * Return: always zero
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int a,b;
+	int a = 0, b = 0 ;
 	if (argc == 3)
 	{
 		a = atoi(argv[1]);
