@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,24 +5,20 @@
  * main - multiplies numbers
  * @argc: args count
  * @argv: args array
- *
  * Return: always zero
  */
 
 int main(int argc, char *argv[])
 {
-	int a = 0, b = 0 ;
-	if (argc == 3)
+	if (argc < 3)
 	{
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		printf("%d\n", a * b);
-			}
+		printf("Error\n");
+		return (1);
+	}
 	else
-			{
-	printf("Error\n");
-	return (1);
-			}
+	{
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	}
 	return (0);
 }
 
