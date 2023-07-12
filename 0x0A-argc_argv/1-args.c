@@ -5,17 +5,14 @@
  * @argc: numbr of arguments
  * @argv: array of argumnts
  *
+ * Return: always zero.
  */
 
 int main(int argc, char *argv[])
 {
-	int i = 0;
-(void) argv;
-while (i < argc)
-	{
-		i++;
-	}
-	printf("%d\n", i - 1);
+	
+	(void) argv;
+	printf("%d\n", argc);
 
 return (0);
 }
