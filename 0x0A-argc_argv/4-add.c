@@ -11,19 +11,21 @@
 
 int main(int argc, char *argv[])
 {
-	int a = 0, b, sum = 0;
-for (a = 1; a < argc; a++)
+	int y, i = 0, sum = 0;
+
+	for (i = 1; i < argc; i++)
 	{
-		for (b = 0; argv[a][b] != '\0'; b++)
+		for (y = 0; argv[i][y] != '\0'; y++)
 		{
-			if (!isdigit(argv[a][b]))
+			if (!isdigit(argv[i][y]))
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
-		sum = sum + atoi(argv[a]);
+		sum = sum + atoi(argv[i]);
 	}
 	printf("%d\n", sum);
-}
 
+	return (0);
+}
