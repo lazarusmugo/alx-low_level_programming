@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- *main - Prints its name
- @argc: arguments count
- @argv: argumnt vector
+ *Main - Prints its name
+ *@argc: arguments count
+ *@argv: argumnt vector
  *
  *Return: Always zero.
  */
