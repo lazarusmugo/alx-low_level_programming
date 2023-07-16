@@ -1,20 +1,19 @@
 #include "main.h"
-
 /**
- * malloc_checked - assigns mem
- * @b : size is mem is allocated
- * Return: pointer or 98
+ * malloc_checked - shoudld allocate memory
+ * @b: size if memory allocated
+ * Return: pointer or 98 on error
  */
 
 void *malloc_checked(unsigned int b)
 {
-        void *a;
-a = malloc(b);
-if (a == NULL)
-{
-exit(98);
-{
-return (a);
-free (a); 
+	void *ptr;
 
+	ptr = malloc(b);
+	if (ptr == NULL)
+	{
+		exit(98);
+	}
+	return (ptr);
+	free(ptr);
 }

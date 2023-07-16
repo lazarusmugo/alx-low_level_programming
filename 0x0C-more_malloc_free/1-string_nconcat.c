@@ -1,17 +1,15 @@
 #include "main.h"
-
 /**
- * string_nconcat - concatenates strings
- * @s1: string 1
+ * string_nconcat - concatenates two strings
+ * @s1:string 1
  * @s2:string 2
  * @n:number of characters in s2 to be used
  * Return: pointer to joint string
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat_ptr;
-	unsigned int a, b, Slength, i;
+	unsigned int Los1, Los2, Slength, i;
 
 	if (s1 == NULL)
 	{
@@ -21,19 +19,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s2 = "";
 	}
-	for (a = 0; *(s1 + a) != '\0'; a++)
+	for (Los1 = 0; *(s1 + Los1) != '\0'; Los1++)
 	{
 		;
 	}
-	for (b = 0; *(s2 + b!= '\0'; b)
+	for (Los2 = 0; *(s2 + Los2) != '\0'; Los2++)
 	{
 		;
 	}
-	if (n >= b)
+	if (n >= Los2)
 	{
-		n = b;
+		n = Los2;
 	}
-	Slength = a+ n;
+	Slength = Los1 + n;
 	concat_ptr = malloc(sizeof(char) * (Slength + 1));
 	if (concat_ptr == NULL)
 	{
